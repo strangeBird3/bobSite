@@ -31,6 +31,66 @@ app.get('/buyBob', function(req, res){
 	res.render('buyBob')
 });
 
+app.get('/bobPg1', function(req, res){
+	res.render('bobPg1', {layout: false});
+});
+
+app.get('/bobPg2', function(req, res){
+	res.render('bobPg2', {layout: false});
+});
+
+app.get('/bobPg3', function(req, res){
+	res.render('bobPg3', {layout: false});
+});
+
+app.get('/bobPg4', function(req, res){
+	res.render('bobPg4', {layout: false});
+});
+
+app.get('/bobPg5', function(req, res){
+	res.render('bobPg5', {layout: false});
+});
+
+app.get('/bobPg6', function(req, res){
+	res.render('bobPg6', {layout: false});
+});
+
+app.get('/bobPg7', function(req, res){
+	res.render('bobPg7', {layout: false});
+});
+
+app.get('/bobPg8', function(req, res){
+	res.render('bobPg8', {layout: false});
+});
+
+app.get('/bobPg9', function(req, res){
+	res.render('bobPg9', {layout: false});
+});
+
+app.get('/bobPg10', function(req, res){
+	res.render('bobPg10', {layout: false});
+});
+
+app.get('/bobPg11', function(req, res){
+	res.render('bobPg11', {layout: false});
+});
+
+app.get('/bobPg12', function(req, res){
+	res.render('bobPg12', {layout: false});
+});
+
+app.get('/bobPg13', function(req, res){
+	res.render('bobPg13', {layout: false});
+});
+
+app.get('/bobPg14', function(req, res){
+	res.render('bobPg14', {layout: false});
+});
+
+app.get('/bobPg15', function(req, res){
+	res.render('bobPg15', {layout: false});
+});
+
 app.listen(server_port, server_ip_address, function(){
   console.log("Listening on " + server_ip_address + ", server_port " + server_port);
 });

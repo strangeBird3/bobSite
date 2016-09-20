@@ -97,6 +97,9 @@ hr {
     width: 50px;
 }   
 
+.logo {
+    width: 30px;
+}
 /*
  * Main Body */
 
@@ -112,6 +115,7 @@ hr {
 
 #homePic {
     border-radius: 4px;	
+    width: 650px;
 }
 
 #headTitle {
@@ -138,6 +142,8 @@ hr {
     padding: 10px; 
     color: #C6A27B;
     background-color: white; 
+    text-align: -webkit-center;
+    margin-top: 30px;
 }
 span.glyphicon-phone {
 	font-size: 3.2em;
@@ -181,6 +187,10 @@ span.glyphicon-envelope {
     width: 300px;
 }
 
+.booksContainer {
+    text-align: -webkit-center;
+}
+
 .bookInfo{
     
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -188,7 +198,28 @@ span.glyphicon-envelope {
     margin-top: 15px;
 }
 
-;
+/*
+ *Buy Bob Page */
+
+.buyBob {
+    text-align: -webkit-center;
+}
+
+.buyBob > h2 {
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+        font-style: italic;
+}
+
+.buyBob > h1 {
+    color: #4c4c49;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.buyBob > img {
+    width: 500px;
+}
+
 
 
 
