@@ -8,7 +8,7 @@ var app = express();
 var handlebars = require('express-handlebars');
 
 //openshift settings
-var server_port = 8081;
+var server_port = process.env.PORT || 8080;
 
 
 
