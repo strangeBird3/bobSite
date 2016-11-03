@@ -10,12 +10,17 @@ body p {
 /* 
  * Navigation Menu */
 
+@font-face {
+    font-family: "rachelFont";
+    src: url("../fonts/BobMagee-Regular.otf");
+}
+
 .navbar-default {
        background-image: linear-gradient(to bottom,#fff 0,#ffffff 100%);
 }
 
 .nav {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: rachelFont, "Comic Sans MS", cursive, sans-serif;
     display: inline-block;
     float: none;
     vertical-align: top;
