@@ -21,15 +21,14 @@ body p {
 
 .nav {
     font-family: rachelFont, "Comic Sans MS", cursive, sans-serif;
-    display: inline-block;
-    float: none;
+    display: flex;
     vertical-align: top;
     font-size: 18px;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: #5C5050;
-    padding-right: 91px
+    padding-right: 40px;
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -57,7 +56,6 @@ body p {
     }
 
 .navbar {
-    
     text-align: center;
 }
 
@@ -65,37 +63,6 @@ body p {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.one:hover ~ hr {
-    background-color: #cdcdcd;
-}
-
-.fa-circle-o-notch:hover {
-    color: #8a8484;
-}
-
-.two ~ hr {
-    background-color: transparent;
-}
-
-.two:hover ~ hr {
-    margin-left: 33%;
-    background-color: #cdcdcd;
-}
-
-.three:hover ~ hr {
-    margin-left: 66%;
-    background-color: #cdcdcd;
-}
-
-
-hr {
-    height: .25rem;
-    width: 25%;
-    margin: 0;
-    background: white;
-    border: none;
-    transition: .3s ease-in-out;
-}
  
 #brandImage {
     margin-top: -15px;
