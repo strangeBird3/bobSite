@@ -28,7 +28,7 @@ body p {
 
 .navbar-default .navbar-nav>li>a {
     color: #5C5050;
-    padding-right: 40px;
+    padding-right: inherit;
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -63,6 +63,15 @@ body p {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+.periods {
+    font-family: Arial;
+}
+
+@media (min-width: 415px) {
+  .navbar-default .navbar-nav>li>a {
+    margin-right: 40px;
+  }
+}
  
 #brandImage {
     margin-top: -15px;
@@ -156,7 +165,6 @@ span.glyphicon-envelope {
  * Bob Books Page */
 
 .books {
-    width: 300px;
 }
 
 .booksContainer {
@@ -165,8 +173,8 @@ span.glyphicon-envelope {
 
 .bookInfo{
     
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 18px;
+    font-family: rachelFont, "Comic Sans MS", sans-serif;
+    font-size: 20px;
     margin-top: 15px;
 }
 
@@ -175,26 +183,49 @@ span.glyphicon-envelope {
 
 .buyBob {
     text-align: -webkit-center;
-}
-
-.buyBob > h2 {
-    color: black;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-        font-style: italic;
+    font-family: rachelFont, "Comic Sans MS";
 }
 
 .buyBob > h1 {
     color: #4c4c49;
-    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .buyBob > img {
     width: 500px;
 }
 
+/*
+ *Photo Gallery */
+
+.photoGallery {
+    margin-top: 30px;
+}
+
+.rachel {
+    font-family: rachelFont, "Comic Sans MS";
+}
+
+.rachel2 {
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+}
+
+.rachel3 {
+    font-family: rachelFont, "Comic Sans MS";
+    font-size: 18px;
+}
+
+.comic {
+    font-family: "Comic Sans MS";
+}
 
 
 
+@media (min-width: 415px) {
+  .navbar-default .navbar-nav>li>a {
+    margin-right: 40px;
+  }
+}
 
 
 
