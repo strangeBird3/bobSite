@@ -13,8 +13,6 @@ app.engine('handlebars', handlebars({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use('/', express.static(__dirname + '/public'));
 
-
-
 app.get('/', function(req,res){
     res.render('index.handlebars');
 });
