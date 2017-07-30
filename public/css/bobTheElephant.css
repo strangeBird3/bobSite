@@ -215,6 +215,12 @@ span.glyphicon-envelope {
     font-size: 18px;
 }
 
+.rachel4 {
+    font-family: rachelFont, "Comic Sans MS";
+    font-size: 100px;
+    padding: 100px;
+}
+
 .comic {
     font-family: "Comic Sans MS";
 }
