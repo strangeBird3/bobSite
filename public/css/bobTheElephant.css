@@ -123,7 +123,7 @@ body p {
     padding: 10px; 
     color: #C6A27B;
     background-color: white; 
-    text-align: -webkit-center;
+    text-align: center;
     margin-top: 30px;
 }
 span.glyphicon-phone {
@@ -218,7 +218,9 @@ span.glyphicon-envelope {
 .rachel4 {
     font-family: rachelFont, "Comic Sans MS";
     font-size: 100px;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 .comic {
