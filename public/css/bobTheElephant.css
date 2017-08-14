@@ -227,13 +227,17 @@ span.glyphicon-envelope {
     font-family: "Comic Sans MS";
 }
 
-
+.photosThumb img {
+    width: 350px;   
+}
 
 @media (min-width: 415px) {
   .navbar-default .navbar-nav>li>a {
     margin-right: 40px;
   }
 }
+
+
 
 
 
